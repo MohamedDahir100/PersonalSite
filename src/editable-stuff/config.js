@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi! I'm Mohamed Dahir, a third-year Computer Science student at Carleton University.  My journey in the world of technology has been an exhilarating exploration of endless possibilities. Fueled by an unyielding curiosity, I'm always eager to learn, create, and unveil the wonders that the tech universe holds. During my previous internships, I had the incredible opportunity to collaborate with exceptional developers. These experiences not only honed my technical skills but also taught me the art of effective teamwork and the value of continuous learning. The dynamic environment of these internships fueled my drive to consistently push my boundaries and expand my knowledge horizons. Beyond lines of code and debugging sessions, I find solace in the embrace of nature and the pages of a good book. Exploring the great outdoors allows me to recharge and gain fresh perspectives, while reading fuels my imagination and broadens my understanding of the world. Join me as I set out on this voyage, navigating the intricate domains of computer science and innovation.",
-  resume: "",
+    resume: require("../editable-stuff/MohamedResume.pdf"),
 };
 
 // PROJECTS SECTION

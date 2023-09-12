@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://MohamedDahir100.github.io/PersonalPortfolio",
+  "homepage": "https://MohamedDahir100.github.io/PersonalSite",
   "version": "2.0.0",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
