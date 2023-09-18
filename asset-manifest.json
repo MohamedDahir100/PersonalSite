@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MohamedDahir100/Portfolio/static/css/main.fe927caf.css",
+    "main.js": "/MohamedDahir100/Portfolio/static/js/main.02561ede.js",
+    "static/js/787.4b24f717.chunk.js": "/MohamedDahir100/Portfolio/static/js/787.4b24f717.chunk.js",
+    "static/media/MohamedResume.pdf": "/MohamedDahir100/Portfolio/static/media/MohamedResume.92ea2ffea7fc03d11f67.pdf",
+    "static/media/mohamed.jpeg": "/MohamedDahir100/Portfolio/static/media/mohamed.2f07113ad146da777090.jpeg",
+    "index.html": "/MohamedDahir100/Portfolio/index.html",
+    "main.fe927caf.css.map": "/MohamedDahir100/Portfolio/static/css/main.fe927caf.css.map",
+    "main.02561ede.js.map": "/MohamedDahir100/Portfolio/static/js/main.02561ede.js.map",
+    "787.4b24f717.chunk.js.map": "/MohamedDahir100/Portfolio/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.02561ede.js"
+  ]
+}
