@@ -2,6 +2,7 @@ const ghpages = require("gh-pages");
 const pathname = `${__dirname}/build`;
 const repoURL = "https://github.com/MohamedDahir100/Portfolio.git";
 const token = ""; // Replace with your GitHub token
+// const token = process.env.TOKEN
 
 ghpages.publish(
   pathname,
