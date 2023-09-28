@@ -1,3 +1,18 @@
+import { 
+  faJava, 
+  faJs, 
+  faPython, 
+  faAngular, 
+  faNodeJs, 
+  faGit 
+} from '@fortawesome/free-brands-svg-icons';
+
+import { 
+  faLaptopCode, // An alternative code icon
+  faHdd, // An alternative storage/database icon
+  faLayerGroup // An alternative icon for TypeORM
+} from '@fortawesome/free-solid-svg-icons';
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -88,22 +103,19 @@ const skills = {
   show: true,
   heading: "Technical Skills",
   hardSkills: [
-    { name: "Rust", value: 100 },
-    { name: "Python", value: 90 },
-    { name: "Java", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "RxJs", value: 65 },
-    { name: "Angular", value: 90 },
-    { name: "Express.js", value: 75 },
-    { name: "NestJs", value: 75 },
-    { name: "SQL", value: 75 },
-    { name: "TypeORM", value: 75 },
-    { name: "Git", value: 75 },
-
-  ]
+    { icon: faJava, name: "Java" },
+    { icon: faJs, name: "JavaScript" },
+    { icon: faJs, name: "TypeScript" },
+    { icon: faPython, name: "Python" },
+    { icon: faAngular, name: "Angular" },
+    { icon: faNodeJs, name: "NestJs" }, 
+    { icon: faLaptopCode, name: "RxJS" }, 
+    { icon: faNodeJs, name: "Express.js" }, 
+    { icon: faHdd, name: "MySQL" },
+    { icon: faLayerGroup, name: "TypeORM" },
+    { icon: faGit, name: "Git" },
+  ],
 };
-
 
 // GET IN TOUCH SECTION
 const getInTouch = {

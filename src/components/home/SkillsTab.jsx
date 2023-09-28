@@ -1,36 +1,34 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import SkillsBar from "./SkillsBar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons"; // You can import other FA icons as needed
 
-function SkillsSection({ skills, isScrolled }) {
+function SkillItem({ icon, name }) {
   return (
-    <>
-      {skills.map((skill, index) => (
-        <SkillsBar
-          key={`${skill}-${index}`}
-          skill={skill.name}
-          value={skill.value}
-          isScrolled={isScrolled}
-        />
-      ))}
-    </>
+    <div className="text-center">
+      <FontAwesomeIcon icon={icon} size="3x" />
+      <p>{name}</p>
+    </div>
   );
 }
 
-function SkillsTab({ skills, isScrolled }) {
+function SkillsSection({ skills }) {
+  return (
+    <div className="d-flex overflow-x-scroll">
+      {skills.map((skill, index) => (
+        <div key={`${skill.name}-${index}`} className="px-3">
+          <SkillItem icon={skill.icon || faCode} name={skill.name} />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function SkillsTab({ skills }) {
   return (
     <>
       <Col xs={12} md={6}>
-        <SkillsSection
-          skills={skills.slice(0, Math.floor(skills.length / 2))}
-          isScrolled={isScrolled}
-        />
-      </Col>
-      <Col xs={12} md={6}>
-        <SkillsSection
-          skills={skills.slice(Math.floor(skills.length / 2), skills.length)}
-          isScrolled={isScrolled}
-        />
+        <SkillsSection skills={skills} />
       </Col>
     </>
   );
