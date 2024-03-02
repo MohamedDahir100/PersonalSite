@@ -129,3 +129,12 @@ code {
     animation: progress 1.5s ease-in-out forwards;
   }
 }
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-inner:hover {
+  transform: rotateY(180deg);
+}

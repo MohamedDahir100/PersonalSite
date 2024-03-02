@@ -67,7 +67,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: false,
+  show: true,
   heading: "Experience",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -100,6 +100,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
+  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   show: true,
   heading: "Technical Skills",
   hardSkills: [
@@ -135,18 +136,21 @@ const experiences = {
       company: 'VectorSolv',
       companylogo: require('../assets/img/VectorSolv.jpeg'),
       date: 'May 2023 – Aug 2023',
+      info:'• Engineered a transformative warranty table feature with Angular, RxJS, NestJs, and TypeORM, enhancing user experience, fortifying security, and improving decision-making ; • Enhanced security by seamlessly integrating permission checks with Angular and NestJs, ensuring the utmost protection of confidential data and fostering trust in the products security framework;• Leveraged Angular and NestJs to efficiently spotlight Distributor information within Warranty Product, enhancing user engagement and comprehension while enabling more informed decision-making;• Strategically resolved critical bugs across customer and admin portals with Angular, NestJs, RxJS, and TypeORM, significantly improving user experience, product stability, and overall success;',
     },
     {
       role: 'Software Engineer Intern',
       company: 'Snow Software',
       companylogo: require('../assets/img/SnowSoftware.jpeg'),
       date: 'Jan 2023 – Apr 2023',
+      info:'• Implemented a Limit Login Feature using Java, allowing admin users to configure fail attempt limits, and rigorously tested it with EasyMock, resulting in elevated security and enhanced system resilience.; • Led system upgrades for Apache Tomcat and Guacamole, optimizing performance, seamlessly integrating them into GCPs cloud infrastructure, and achieving a 70% process enhancement.;• Collaborated with the QA team to rectify user-reported bugs using Java and EasyMock, ensuring product alignment, stability, and customer satisfaction',
     },
     {
       role: 'Data Analyst Intern',
       company: 'Statistics Canada',
       companylogo: require('../assets/img/stats.jpeg'),
       date: 'May 2022 – Dec 2022',
+      info:'• Developed a centralized SQL Database to optimize data storage and accessibility, streamlining data management for the Customer Success team, expediting data-driven decision-making, and enhancing their processes by 100%; • Streamlined data-to-report processes by automating Power BI report connections through Power Automate, ensuring accurate and efficient customer data capture.; • Designed real-time Interactive Dashboards using Power BI and Power Automate, informing senior leaderships decisions, shaping Data Analytics as a service, and facilitating the budgeting of millions of dollars in funding.', 
     },
     
   ]
