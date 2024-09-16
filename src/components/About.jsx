@@ -1,3 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import React from 'react'
 import { Tilt } from 'react-tilt';
 import { motion } from "framer-motion";
@@ -47,11 +51,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a fourth-year Computer Science student at Carleton University, passionate about developing innovative software solutions. With experience in full-stack development, I've worked on projects ranging from 3D visuals to web applications and data analysis systems.
+My expertise spans TypeScript, JavaScript, Java, and Python, with proficiency in frameworks like React, Angular, and NestJS. Through internships at companies like Canada Revenue Agency and VectorSolv, I've honed my skills in creating efficient, scalable, and user-friendly applications that solve real-world problems.
+I'm a quick learner who thrives on collaboration, always eager to bring creative ideas to life. As I approach graduation in May 2025, I'm excited to apply my skills and continue growing in a new graduate role. I'm eager to tackle new challenges and contribute to innovative projects in the tech industry.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

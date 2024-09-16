@@ -15,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    vectorsolv,
+    cra,
+    snow_software,
+    statcan,
     carrent,
     jobit,
     tripguide,
@@ -42,11 +42,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full Stack Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Analyst",
       icon: creator,
     },
   ];
@@ -116,57 +116,52 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer",
+      company_name: "Canada Revenue Agency",
+      icon: cra,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2024 – Aug 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Developed efficient SQL queries and algorithms to predict tax entity behavior, handling large datasets from various sources and reducing audit workload by 30%.",
+        "Refactored legacy algorithms and queries to leverage optimized SQL tables, resulting in a 50% reduction in code latency by restructuring inefficient data models and enhancing join operations.",
+        "Partnered with Subject Matter Experts to implement an iterative development process, ensuring model accuracy and producing comprehensive reports on data inputs, algorithm logic, calculations, and final risk scores."
+      ]
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full Stack Developer",
+      company_name: "VectorSolv",
+      icon: vectorsolv,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 – Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Pioneered the development of a warranty table feature by working on both front-end and back-end components, reducing customer service support time by 40%, enhancing user experience, and boosting decision-making efficiency.",
+        "Enhanced security by seamlessly integrating permission checks with Angular and NestJS, ensuring the utmost protection of confidential data and fostering trust in the product’s security framework.",
+        "Revamped the management of distributor information within the Warranty Product by creating centralized dashboards with Angular and NestJS, transitioning from scattered data to a unified view that enhanced user engagement, comprehension, and decision-making."
+      ]
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Engineer",
+      company_name: "Snow Software",
+      icon: snow_software,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2023 – Apr 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Engineered a customizable login attempt limiter for Snow Software’s Commander using Java, enhancing system security and reducing unauthorized access, while ensuring code quality through EasyMock testing.",
+        "Architected a feature allowing users to set organization management limits via REST API, streamlining large-scale deployments and improving client management efficiency for enterprise users.",
+        "Spearheaded bug resolution in collaboration with QA, addressing critical user-reported issues and reducing support tickets by 30%, leading to improved customer satisfaction."
+      ]
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Data Analyst",
+      company_name: "Statistics Canada",
+      icon: statcan,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2022 – Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+        "Designed a centralized SQL database to optimize data storage and accessibility, streamlining data management for the Customer Success team and accelerating data-driven decision-making processes.",
+        "Created real-time interactive dashboards with Power BI and Power Automate, providing senior leadership with actionable insights, shaping Data Analytics as a service, and supporting the allocation of millions in funding."
+      ]
+    }
   ];
   
   const testimonials = [
