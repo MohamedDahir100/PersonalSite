@@ -5,16 +5,16 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
+    angular,
+    python,
     reactjs,
-    redux,
-    tailwind,
+    go,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+    java,
+    mysql,
+    cplusplus,
     vectorsolv,
     cra,
     snow_software,
@@ -61,12 +61,8 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "Angular",
+      icon: angular,
     },
     {
       name: "JavaScript",
@@ -81,16 +77,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "MongoDB",
@@ -105,12 +97,20 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "C ++",
+      icon: cplusplus,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "GO",
+      icon: go,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
   ];
   
