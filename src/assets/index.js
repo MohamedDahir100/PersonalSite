@@ -26,9 +26,9 @@ import snow_software from "./company/snow_software.png";
 import statcan from "./company/statcan.png";
 import vectorsolv from "./company/vectorsolv.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import retailFlow from "./retailFlow.png";
+import omniWatch from "./omniWatch.png";
+import sentimentA from "./sentimentA.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   cra,
   snow_software,
   statcan,
-  carrent,
-  jobit,
-  tripguide,
+  retailFlow,
+  omniWatch,
+  sentimentA,
 };

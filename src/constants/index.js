@@ -19,9 +19,9 @@ import {
     cra,
     snow_software,
     statcan,
-    carrent,
-    jobit,
-    tripguide,
+    retailFlow,
+    omniWatch,
+    sentimentA,
     threejs,
   } from "../assets";
   
@@ -193,67 +193,83 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Retail Flow",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A task management app designed for large retail stores, built to optimize associate management. Developed with the MERN stack, it offers a dynamic Kanban board interface with real-time MongoDB task integration and secure Microsoft OAuth access, ensuring efficient task management and collaboration.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          "name": "MERN",
+          "color": "blue-text-gradient"
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          "name": "MongoDB",
+          "color": "green-text-gradient"
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          "name": "Microsoft OAuth",
+          "color": "pink-text-gradient"
+        },
+        {
+          "name": "Kanban",
+          "color": "blue-text-gradient"
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: retailFlow,
+      source_code_link: "https://github.com/MohamedDahir100/RetailFlow-react-ui",
     },
     {
-      name: "Job IT",
+      name: "OmniWatch",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An advanced access management system that enables real-time logging and instant status updates for every building entry. It ensures a high level of security while optimizing space utilization and access flow management, providing crucial insights into access patterns for enhanced safety and efficiency.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          "name": "Python",
+          "color": "blue-text-gradient"
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          "name": "MongoDB",
+          "color": "green-text-gradient"
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          "name": "React",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "Solace PubSub",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "MQTT",
+          "color": "pink-text-gradient"
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: omniWatch,
+      source_code_link: "https://github.com/MohamedDahir100/Omniwatch",
     },
     {
-      name: "Trip Guide",
+      name: "Sentiment Analysis",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A project leveraging natural language processing (NLP) to analyze YouTube video comments and gauge sentiment based on viewer feedback. The project used a fine-tuned DistilBERT model to classify comments as positive, negative, or neutral. It aimed to provide an alternative to YouTube's removed dislike count by offering sentiment scores for videos.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          "name": "NLP",
+          "color": "green-text-gradient"
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          "name": "YouTube API",
+          "color": "pink-text-gradient"
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          "name": "DistilBERT",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "Machine Learning",
+          "color": "pink-text-gradient"
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sentimentA,
+      source_code_link: "https://github.com/MohamedDahir100/Sentiment-Analysis",
     },
   ];
   
